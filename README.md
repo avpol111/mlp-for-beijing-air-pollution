@@ -1,2 +1,2 @@
 # mlp-for-beijing-air-pollution
-An MLP model in Pytorch to predict the air pollution in Beijing
+An MLP model in Pytorch to predict the air pollution in Beijing. After having implemented LSTM, ESN and transformer models to predict the air pollution in Beijing, I decided to do it using a multilayer perceptron. This model gave the best result out of the four models: its best test RMSE is 22.3266. However, it's only slightly better than the result of the LSTM model (22.6848). The results of the ESN and transformer models are considerably worse (respectively 25.5611 and 27.5044).
